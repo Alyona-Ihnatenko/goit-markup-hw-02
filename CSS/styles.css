@@ -1,0 +1,42 @@
+:root {
+  --text-font: "roboto", sans-serif;
+  --logo-font: "relaway", sans-serif;
+  --accent-color: #757575;
+}
+body {
+  background-color: #e5e5e5;
+  font-family: var(--text-font);
+  font-style: normal;
+}
+
+.logo-link {
+  font-family: var(--logo-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-link-dark-theme {
+  color: #ffffff;
+}
+
+.logo-link-light-theme {
+  color: #000000;
+}
+
+.navigation-list-item-link {
+  font-family: var(--text-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus {
+  color: #2196f3;
+}
