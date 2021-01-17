@@ -159,6 +159,7 @@ body {
 }
 /*==============End About-us,Our-team=======*/
 
+/*==============Button ===========*/
 .buttons-list-item-btn {
   font-family: var(--text-font);
   font-weight: 500;
@@ -172,6 +173,10 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
+
+/*==========End Button======*/
+
+/*========Projects========*/
 .projects-title {
   font-family: var(--text-font);
   font-weight: 700;
@@ -188,3 +193,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+/*===========End Projects===========*/
