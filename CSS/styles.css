@@ -28,6 +28,12 @@ body {
   color: #000000;
 }
 /*==========end logotype==========*/
+.link {
+  text-decoration-line: none;
+}
+.list {
+  list-style: none;
+}
 
 /*===========Navigation==========*/
 .navigation-list-item-link {
