@@ -17,15 +17,17 @@ body {
 }
 /*==========Logotype========*/
 .logo-link {
-  font-family: var(--text-logo);
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .logo-web {
   color: var(--link-color);
   font-family: var(--logo-font);
+  font-style: normal;
 }
 .logo-link-dark-theme {
   color: var(--text-color-accent);
@@ -40,6 +42,7 @@ body {
 }
 .list {
   list-style: none;
+  font-style: normal;
 }
 .footer {
   background-color: var(--header-footer-color);
